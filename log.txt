@@ -1,0 +1,477 @@
+14/08/2025 00:10:13 installVcredist: running vcredist_x86_13
+14/08/2025 00:10:14 installVcredist: cmdPath =C:\Users\ngahngono_a\Desktop\New folder\unzipped\TWS\WINDOWS_X86_64\ACTIONTOOLS cmdName =vcredist_x86_13 logPath =C:\Users\NGAHNG~1\AppData\Local\Temp\TWA\tws10.2.4.00
+14/08/2025 00:10:14 installVcredistExe COMMAND = "C:\Users\ngahngono_a\Desktop\New folder\unzipped\TWS\WINDOWS_X86_64\ACTIONTOOLS\vcredist_x86_13.exe" /install /quiet /norestart /log C:\Users\NGAHNG~1\AppData\Local\Temp\TWA\tws10.2.4.00\vcredist_x86_13.log
+14/08/2025 00:10:20 installVcredistExe result = 0
+14/08/2025 00:10:20 installVcredistExe success
+14/08/2025 00:10:20 installVcredist rc = 0
+14/08/2025 00:10:20 installVcredist: running vcredist_x64_13
+14/08/2025 00:10:20 installVcredist: cmdPath =C:\Users\ngahngono_a\Desktop\New folder\unzipped\TWS\WINDOWS_X86_64\ACTIONTOOLS cmdName =vcredist_x64_13 logPath =C:\Users\NGAHNG~1\AppData\Local\Temp\TWA\tws10.2.4.00
+14/08/2025 00:10:20 installVcredistExe COMMAND = "C:\Users\ngahngono_a\Desktop\New folder\unzipped\TWS\WINDOWS_X86_64\ACTIONTOOLS\vcredist_x64_13.exe" /install /quiet /norestart /log C:\Users\NGAHNG~1\AppData\Local\Temp\TWA\tws10.2.4.00\vcredist_x64_13.log
+14/08/2025 00:10:21 installVcredistExe result = 0
+14/08/2025 00:10:21 installVcredistExe success
+14/08/2025 00:10:21 installVcredist rc = 0
+14/08/2025 00:10:21 installVcredist: running vc_redist.x86_14
+14/08/2025 00:10:21 installVcredist: cmdPath =C:\Users\ngahngono_a\Desktop\New folder\unzipped\TWS\WINDOWS_X86_64\ACTIONTOOLS cmdName =vc_redist.x86_14 logPath =C:\Users\NGAHNG~1\AppData\Local\Temp\TWA\tws10.2.4.00
+14/08/2025 00:10:21 installVcredistExe COMMAND = "C:\Users\ngahngono_a\Desktop\New folder\unzipped\TWS\WINDOWS_X86_64\ACTIONTOOLS\vc_redist.x86_14.exe" /install /quiet /norestart /log C:\Users\NGAHNG~1\AppData\Local\Temp\TWA\tws10.2.4.00\vc_redist.x86_14.log
+14/08/2025 00:10:22 installVcredistExe result = 1638
+14/08/2025 00:10:22 installVcredistExe: a newer version of VC++ redistributable is already installed
+14/08/2025 00:10:22 installVcredist rc = 0
+14/08/2025 00:10:22 installVcredist: running vc_redist.x64_14
+14/08/2025 00:10:22 installVcredist: cmdPath =C:\Users\ngahngono_a\Desktop\New folder\unzipped\TWS\WINDOWS_X86_64\ACTIONTOOLS cmdName =vc_redist.x64_14 logPath =C:\Users\NGAHNG~1\AppData\Local\Temp\TWA\tws10.2.4.00
+14/08/2025 00:10:22 installVcredistExe COMMAND = "C:\Users\ngahngono_a\Desktop\New folder\unzipped\TWS\WINDOWS_X86_64\ACTIONTOOLS\vc_redist.x64_14.exe" /install /quiet /norestart /log C:\Users\NGAHNG~1\AppData\Local\Temp\TWA\tws10.2.4.00\vc_redist.x64_14.log
+14/08/2025 00:10:23 installVcredistExe result = 1638
+14/08/2025 00:10:23 installVcredistExe: a newer version of VC++ redistributable is already installed
+14/08/2025 00:10:23 installVcredist rc = 0
+14/08/2025 00:10:24 setDistributedOrZcentric Begin
+14/08/2025 00:10:24 setDistributedOrZcentric end
+14/08/2025 00:10:24 license is IBM
+14/08/2025 00:10:25 license is IBM
+14/08/2025 11:56:49 installVcredist: running vcredist_x86_13
+14/08/2025 11:56:50 installVcredist: cmdPath =C:\Users\ngahngono_a\Desktop\New folder\unzipped\TWS\WINDOWS_X86_64\ACTIONTOOLS cmdName =vcredist_x86_13 logPath =C:\Users\NGAHNG~1\AppData\Local\Temp\TWA\tws10.2.4.00
+14/08/2025 11:56:50 installVcredistExe COMMAND = "C:\Users\ngahngono_a\Desktop\New folder\unzipped\TWS\WINDOWS_X86_64\ACTIONTOOLS\vcredist_x86_13.exe" /install /quiet /norestart /log C:\Users\NGAHNG~1\AppData\Local\Temp\TWA\tws10.2.4.00\vcredist_x86_13.log
+14/08/2025 11:56:51 installVcredistExe result = 0
+14/08/2025 11:56:51 installVcredistExe success
+14/08/2025 11:56:51 installVcredist rc = 0
+14/08/2025 11:56:51 installVcredist: running vcredist_x64_13
+14/08/2025 11:56:51 installVcredist: cmdPath =C:\Users\ngahngono_a\Desktop\New folder\unzipped\TWS\WINDOWS_X86_64\ACTIONTOOLS cmdName =vcredist_x64_13 logPath =C:\Users\NGAHNG~1\AppData\Local\Temp\TWA\tws10.2.4.00
+14/08/2025 11:56:51 installVcredistExe COMMAND = "C:\Users\ngahngono_a\Desktop\New folder\unzipped\TWS\WINDOWS_X86_64\ACTIONTOOLS\vcredist_x64_13.exe" /install /quiet /norestart /log C:\Users\NGAHNG~1\AppData\Local\Temp\TWA\tws10.2.4.00\vcredist_x64_13.log
+14/08/2025 11:56:52 installVcredistExe result = 0
+14/08/2025 11:56:52 installVcredistExe success
+14/08/2025 11:56:52 installVcredist rc = 0
+14/08/2025 11:56:52 installVcredist: running vc_redist.x86_14
+14/08/2025 11:56:52 installVcredist: cmdPath =C:\Users\ngahngono_a\Desktop\New folder\unzipped\TWS\WINDOWS_X86_64\ACTIONTOOLS cmdName =vc_redist.x86_14 logPath =C:\Users\NGAHNG~1\AppData\Local\Temp\TWA\tws10.2.4.00
+14/08/2025 11:56:52 installVcredistExe COMMAND = "C:\Users\ngahngono_a\Desktop\New folder\unzipped\TWS\WINDOWS_X86_64\ACTIONTOOLS\vc_redist.x86_14.exe" /install /quiet /norestart /log C:\Users\NGAHNG~1\AppData\Local\Temp\TWA\tws10.2.4.00\vc_redist.x86_14.log
+14/08/2025 11:56:52 installVcredistExe result = 1638
+14/08/2025 11:56:52 installVcredistExe: a newer version of VC++ redistributable is already installed
+14/08/2025 11:56:52 installVcredist rc = 0
+14/08/2025 11:56:52 installVcredist: running vc_redist.x64_14
+14/08/2025 11:56:52 installVcredist: cmdPath =C:\Users\ngahngono_a\Desktop\New folder\unzipped\TWS\WINDOWS_X86_64\ACTIONTOOLS cmdName =vc_redist.x64_14 logPath =C:\Users\NGAHNG~1\AppData\Local\Temp\TWA\tws10.2.4.00
+14/08/2025 11:56:52 installVcredistExe COMMAND = "C:\Users\ngahngono_a\Desktop\New folder\unzipped\TWS\WINDOWS_X86_64\ACTIONTOOLS\vc_redist.x64_14.exe" /install /quiet /norestart /log C:\Users\NGAHNG~1\AppData\Local\Temp\TWA\tws10.2.4.00\vc_redist.x64_14.log
+14/08/2025 11:56:53 installVcredistExe result = 1638
+14/08/2025 11:56:53 installVcredistExe: a newer version of VC++ redistributable is already installed
+14/08/2025 11:56:53 installVcredist rc = 0
+14/08/2025 11:56:54 setDistributedOrZcentric Begin
+14/08/2025 11:56:54 setDistributedOrZcentric end
+14/08/2025 11:58:37 installVcredist: running vcredist_x86_13
+14/08/2025 11:58:37 installVcredist: cmdPath =C:\Users\ngahngono_a\Desktop\New folder\unzipped\TWS\WINDOWS_X86_64\ACTIONTOOLS cmdName =vcredist_x86_13 logPath =C:\Users\NGAHNG~1\AppData\Local\Temp\TWA\tws10.2.4.00
+14/08/2025 11:58:37 installVcredistExe COMMAND = "C:\Users\ngahngono_a\Desktop\New folder\unzipped\TWS\WINDOWS_X86_64\ACTIONTOOLS\vcredist_x86_13.exe" /install /quiet /norestart /log C:\Users\NGAHNG~1\AppData\Local\Temp\TWA\tws10.2.4.00\vcredist_x86_13.log
+14/08/2025 11:58:38 installVcredistExe result = 0
+14/08/2025 11:58:38 installVcredistExe success
+14/08/2025 11:58:38 installVcredist rc = 0
+14/08/2025 11:58:38 installVcredist: running vcredist_x64_13
+14/08/2025 11:58:38 installVcredist: cmdPath =C:\Users\ngahngono_a\Desktop\New folder\unzipped\TWS\WINDOWS_X86_64\ACTIONTOOLS cmdName =vcredist_x64_13 logPath =C:\Users\NGAHNG~1\AppData\Local\Temp\TWA\tws10.2.4.00
+14/08/2025 11:58:38 installVcredistExe COMMAND = "C:\Users\ngahngono_a\Desktop\New folder\unzipped\TWS\WINDOWS_X86_64\ACTIONTOOLS\vcredist_x64_13.exe" /install /quiet /norestart /log C:\Users\NGAHNG~1\AppData\Local\Temp\TWA\tws10.2.4.00\vcredist_x64_13.log
+14/08/2025 11:58:38 installVcredistExe result = 0
+14/08/2025 11:58:38 installVcredistExe success
+14/08/2025 11:58:38 installVcredist rc = 0
+14/08/2025 11:58:38 installVcredist: running vc_redist.x86_14
+14/08/2025 11:58:38 installVcredist: cmdPath =C:\Users\ngahngono_a\Desktop\New folder\unzipped\TWS\WINDOWS_X86_64\ACTIONTOOLS cmdName =vc_redist.x86_14 logPath =C:\Users\NGAHNG~1\AppData\Local\Temp\TWA\tws10.2.4.00
+14/08/2025 11:58:38 installVcredistExe COMMAND = "C:\Users\ngahngono_a\Desktop\New folder\unzipped\TWS\WINDOWS_X86_64\ACTIONTOOLS\vc_redist.x86_14.exe" /install /quiet /norestart /log C:\Users\NGAHNG~1\AppData\Local\Temp\TWA\tws10.2.4.00\vc_redist.x86_14.log
+14/08/2025 11:58:39 installVcredistExe result = 1638
+14/08/2025 11:58:39 installVcredistExe: a newer version of VC++ redistributable is already installed
+14/08/2025 11:58:39 installVcredist rc = 0
+14/08/2025 11:58:39 installVcredist: running vc_redist.x64_14
+14/08/2025 11:58:39 installVcredist: cmdPath =C:\Users\ngahngono_a\Desktop\New folder\unzipped\TWS\WINDOWS_X86_64\ACTIONTOOLS cmdName =vc_redist.x64_14 logPath =C:\Users\NGAHNG~1\AppData\Local\Temp\TWA\tws10.2.4.00
+14/08/2025 11:58:39 installVcredistExe COMMAND = "C:\Users\ngahngono_a\Desktop\New folder\unzipped\TWS\WINDOWS_X86_64\ACTIONTOOLS\vc_redist.x64_14.exe" /install /quiet /norestart /log C:\Users\NGAHNG~1\AppData\Local\Temp\TWA\tws10.2.4.00\vc_redist.x64_14.log
+14/08/2025 11:58:39 installVcredistExe result = 1638
+14/08/2025 11:58:39 installVcredistExe: a newer version of VC++ redistributable is already installed
+14/08/2025 11:58:39 installVcredist rc = 0
+14/08/2025 11:58:39 setDistributedOrZcentric Begin
+14/08/2025 11:58:39 setDistributedOrZcentric end
+14/08/2025 11:58:40 license is IBM
+14/08/2025 11:58:41 license is IBM
+14/08/2025 12:02:26 installVcredist: running vcredist_x86_13
+14/08/2025 12:02:26 installVcredist: cmdPath =C:\Users\ngahngono_a\Desktop\New folder\unzipped\TWS\WINDOWS_X86_64\ACTIONTOOLS cmdName =vcredist_x86_13 logPath =C:\Users\NGAHNG~1\AppData\Local\Temp\TWA\tws10.2.4.00
+14/08/2025 12:02:26 installVcredistExe COMMAND = "C:\Users\ngahngono_a\Desktop\New folder\unzipped\TWS\WINDOWS_X86_64\ACTIONTOOLS\vcredist_x86_13.exe" /install /quiet /norestart /log C:\Users\NGAHNG~1\AppData\Local\Temp\TWA\tws10.2.4.00\vcredist_x86_13.log
+14/08/2025 12:02:26 installVcredistExe result = 0
+14/08/2025 12:02:26 installVcredistExe success
+14/08/2025 12:02:26 installVcredist rc = 0
+14/08/2025 12:02:27 installVcredist: running vcredist_x64_13
+14/08/2025 12:02:27 installVcredist: cmdPath =C:\Users\ngahngono_a\Desktop\New folder\unzipped\TWS\WINDOWS_X86_64\ACTIONTOOLS cmdName =vcredist_x64_13 logPath =C:\Users\NGAHNG~1\AppData\Local\Temp\TWA\tws10.2.4.00
+14/08/2025 12:02:27 installVcredistExe COMMAND = "C:\Users\ngahngono_a\Desktop\New folder\unzipped\TWS\WINDOWS_X86_64\ACTIONTOOLS\vcredist_x64_13.exe" /install /quiet /norestart /log C:\Users\NGAHNG~1\AppData\Local\Temp\TWA\tws10.2.4.00\vcredist_x64_13.log
+14/08/2025 12:02:27 installVcredistExe result = 0
+14/08/2025 12:02:27 installVcredistExe success
+14/08/2025 12:02:27 installVcredist rc = 0
+14/08/2025 12:02:27 installVcredist: running vc_redist.x86_14
+14/08/2025 12:02:27 installVcredist: cmdPath =C:\Users\ngahngono_a\Desktop\New folder\unzipped\TWS\WINDOWS_X86_64\ACTIONTOOLS cmdName =vc_redist.x86_14 logPath =C:\Users\NGAHNG~1\AppData\Local\Temp\TWA\tws10.2.4.00
+14/08/2025 12:02:27 installVcredistExe COMMAND = "C:\Users\ngahngono_a\Desktop\New folder\unzipped\TWS\WINDOWS_X86_64\ACTIONTOOLS\vc_redist.x86_14.exe" /install /quiet /norestart /log C:\Users\NGAHNG~1\AppData\Local\Temp\TWA\tws10.2.4.00\vc_redist.x86_14.log
+14/08/2025 12:02:27 installVcredistExe result = 1638
+14/08/2025 12:02:27 installVcredistExe: a newer version of VC++ redistributable is already installed
+14/08/2025 12:02:27 installVcredist rc = 0
+14/08/2025 12:02:27 installVcredist: running vc_redist.x64_14
+14/08/2025 12:02:27 installVcredist: cmdPath =C:\Users\ngahngono_a\Desktop\New folder\unzipped\TWS\WINDOWS_X86_64\ACTIONTOOLS cmdName =vc_redist.x64_14 logPath =C:\Users\NGAHNG~1\AppData\Local\Temp\TWA\tws10.2.4.00
+14/08/2025 12:02:28 installVcredistExe COMMAND = "C:\Users\ngahngono_a\Desktop\New folder\unzipped\TWS\WINDOWS_X86_64\ACTIONTOOLS\vc_redist.x64_14.exe" /install /quiet /norestart /log C:\Users\NGAHNG~1\AppData\Local\Temp\TWA\tws10.2.4.00\vc_redist.x64_14.log
+14/08/2025 12:02:28 installVcredistExe result = 1638
+14/08/2025 12:02:28 installVcredistExe: a newer version of VC++ redistributable is already installed
+14/08/2025 12:02:28 installVcredist rc = 0
+14/08/2025 12:02:28 setDistributedOrZcentric Begin
+14/08/2025 12:02:28 setDistributedOrZcentric end
+14/08/2025 12:02:29 license is IBM
+14/08/2025 12:02:29 license is IBM
+14/08/2025 12:03:42 installVcredist: running vcredist_x86_13
+14/08/2025 12:03:42 installVcredist: cmdPath =C:\Users\ngahngono_a\Desktop\New folder\unzipped\TWS\WINDOWS_X86_64\ACTIONTOOLS cmdName =vcredist_x86_13 logPath =C:\Users\NGAHNG~1\AppData\Local\Temp\TWA\tws10.2.4.00
+14/08/2025 12:03:42 installVcredistExe COMMAND = "C:\Users\ngahngono_a\Desktop\New folder\unzipped\TWS\WINDOWS_X86_64\ACTIONTOOLS\vcredist_x86_13.exe" /install /quiet /norestart /log C:\Users\NGAHNG~1\AppData\Local\Temp\TWA\tws10.2.4.00\vcredist_x86_13.log
+14/08/2025 12:03:43 installVcredistExe result = 0
+14/08/2025 12:03:43 installVcredistExe success
+14/08/2025 12:03:43 installVcredist rc = 0
+14/08/2025 12:03:43 installVcredist: running vcredist_x64_13
+14/08/2025 12:03:43 installVcredist: cmdPath =C:\Users\ngahngono_a\Desktop\New folder\unzipped\TWS\WINDOWS_X86_64\ACTIONTOOLS cmdName =vcredist_x64_13 logPath =C:\Users\NGAHNG~1\AppData\Local\Temp\TWA\tws10.2.4.00
+14/08/2025 12:03:43 installVcredistExe COMMAND = "C:\Users\ngahngono_a\Desktop\New folder\unzipped\TWS\WINDOWS_X86_64\ACTIONTOOLS\vcredist_x64_13.exe" /install /quiet /norestart /log C:\Users\NGAHNG~1\AppData\Local\Temp\TWA\tws10.2.4.00\vcredist_x64_13.log
+14/08/2025 12:03:43 installVcredistExe result = 0
+14/08/2025 12:03:43 installVcredistExe success
+14/08/2025 12:03:43 installVcredist rc = 0
+14/08/2025 12:03:43 installVcredist: running vc_redist.x86_14
+14/08/2025 12:03:43 installVcredist: cmdPath =C:\Users\ngahngono_a\Desktop\New folder\unzipped\TWS\WINDOWS_X86_64\ACTIONTOOLS cmdName =vc_redist.x86_14 logPath =C:\Users\NGAHNG~1\AppData\Local\Temp\TWA\tws10.2.4.00
+14/08/2025 12:03:43 installVcredistExe COMMAND = "C:\Users\ngahngono_a\Desktop\New folder\unzipped\TWS\WINDOWS_X86_64\ACTIONTOOLS\vc_redist.x86_14.exe" /install /quiet /norestart /log C:\Users\NGAHNG~1\AppData\Local\Temp\TWA\tws10.2.4.00\vc_redist.x86_14.log
+14/08/2025 12:03:44 installVcredistExe result = 1638
+14/08/2025 12:03:44 installVcredistExe: a newer version of VC++ redistributable is already installed
+14/08/2025 12:03:44 installVcredist rc = 0
+14/08/2025 12:03:44 installVcredist: running vc_redist.x64_14
+14/08/2025 12:03:44 installVcredist: cmdPath =C:\Users\ngahngono_a\Desktop\New folder\unzipped\TWS\WINDOWS_X86_64\ACTIONTOOLS cmdName =vc_redist.x64_14 logPath =C:\Users\NGAHNG~1\AppData\Local\Temp\TWA\tws10.2.4.00
+14/08/2025 12:03:44 installVcredistExe COMMAND = "C:\Users\ngahngono_a\Desktop\New folder\unzipped\TWS\WINDOWS_X86_64\ACTIONTOOLS\vc_redist.x64_14.exe" /install /quiet /norestart /log C:\Users\NGAHNG~1\AppData\Local\Temp\TWA\tws10.2.4.00\vc_redist.x64_14.log
+14/08/2025 12:03:44 installVcredistExe result = 1638
+14/08/2025 12:03:44 installVcredistExe: a newer version of VC++ redistributable is already installed
+14/08/2025 12:03:44 installVcredist rc = 0
+14/08/2025 12:03:44 setDistributedOrZcentric Begin
+14/08/2025 12:03:44 setDistributedOrZcentric end
+14/08/2025 12:03:44 main TWS_USER = 00svczc1
+14/08/2025 12:03:44 fixTwsUser entry TWS_USER = 00svczc1
+14/08/2025 12:03:44 fixTwsUser exit
+14/08/2025 12:03:44 checkPassword user = 00svczc1
+14/08/2025 12:03:45 setUsefullPath TWS_USER = 00svczc1
+14/08/2025 12:03:45 RemoveSlashes: inputString = 00svczc1
+14/08/2025 12:03:45 RemoveSlashes: output = 00svczc1
+14/08/2025 12:04:32 installVcredist: running vcredist_x86_13
+14/08/2025 12:04:32 installVcredist: cmdPath =C:\Users\ngahngono_a\Desktop\New folder\unzipped\TWS\WINDOWS_X86_64\ACTIONTOOLS cmdName =vcredist_x86_13 logPath =C:\Users\NGAHNG~1\AppData\Local\Temp\TWA\tws10.2.4.00
+14/08/2025 12:04:32 installVcredistExe COMMAND = "C:\Users\ngahngono_a\Desktop\New folder\unzipped\TWS\WINDOWS_X86_64\ACTIONTOOLS\vcredist_x86_13.exe" /install /quiet /norestart /log C:\Users\NGAHNG~1\AppData\Local\Temp\TWA\tws10.2.4.00\vcredist_x86_13.log
+14/08/2025 12:04:32 installVcredistExe result = 0
+14/08/2025 12:04:33 installVcredistExe success
+14/08/2025 12:04:33 installVcredist rc = 0
+14/08/2025 12:04:33 installVcredist: running vcredist_x64_13
+14/08/2025 12:04:33 installVcredist: cmdPath =C:\Users\ngahngono_a\Desktop\New folder\unzipped\TWS\WINDOWS_X86_64\ACTIONTOOLS cmdName =vcredist_x64_13 logPath =C:\Users\NGAHNG~1\AppData\Local\Temp\TWA\tws10.2.4.00
+14/08/2025 12:04:33 installVcredistExe COMMAND = "C:\Users\ngahngono_a\Desktop\New folder\unzipped\TWS\WINDOWS_X86_64\ACTIONTOOLS\vcredist_x64_13.exe" /install /quiet /norestart /log C:\Users\NGAHNG~1\AppData\Local\Temp\TWA\tws10.2.4.00\vcredist_x64_13.log
+14/08/2025 12:04:33 installVcredistExe result = 0
+14/08/2025 12:04:33 installVcredistExe success
+14/08/2025 12:04:33 installVcredist rc = 0
+14/08/2025 12:04:33 installVcredist: running vc_redist.x86_14
+14/08/2025 12:04:33 installVcredist: cmdPath =C:\Users\ngahngono_a\Desktop\New folder\unzipped\TWS\WINDOWS_X86_64\ACTIONTOOLS cmdName =vc_redist.x86_14 logPath =C:\Users\NGAHNG~1\AppData\Local\Temp\TWA\tws10.2.4.00
+14/08/2025 12:04:33 installVcredistExe COMMAND = "C:\Users\ngahngono_a\Desktop\New folder\unzipped\TWS\WINDOWS_X86_64\ACTIONTOOLS\vc_redist.x86_14.exe" /install /quiet /norestart /log C:\Users\NGAHNG~1\AppData\Local\Temp\TWA\tws10.2.4.00\vc_redist.x86_14.log
+14/08/2025 12:04:33 installVcredistExe result = 1638
+14/08/2025 12:04:33 installVcredistExe: a newer version of VC++ redistributable is already installed
+14/08/2025 12:04:33 installVcredist rc = 0
+14/08/2025 12:04:33 installVcredist: running vc_redist.x64_14
+14/08/2025 12:04:34 installVcredist: cmdPath =C:\Users\ngahngono_a\Desktop\New folder\unzipped\TWS\WINDOWS_X86_64\ACTIONTOOLS cmdName =vc_redist.x64_14 logPath =C:\Users\NGAHNG~1\AppData\Local\Temp\TWA\tws10.2.4.00
+14/08/2025 12:04:34 installVcredistExe COMMAND = "C:\Users\ngahngono_a\Desktop\New folder\unzipped\TWS\WINDOWS_X86_64\ACTIONTOOLS\vc_redist.x64_14.exe" /install /quiet /norestart /log C:\Users\NGAHNG~1\AppData\Local\Temp\TWA\tws10.2.4.00\vc_redist.x64_14.log
+14/08/2025 12:04:34 installVcredistExe result = 1638
+14/08/2025 12:04:34 installVcredistExe: a newer version of VC++ redistributable is already installed
+14/08/2025 12:04:34 installVcredist rc = 0
+14/08/2025 12:04:34 setDistributedOrZcentric Begin
+14/08/2025 12:04:34 setDistributedOrZcentric end
+14/08/2025 12:04:34 license is IBM
+14/08/2025 12:04:35 license is IBM
+14/08/2025 12:06:11 installVcredist: running vcredist_x86_13
+14/08/2025 12:06:11 installVcredist: cmdPath =C:\Users\ngahngono_a\Desktop\New folder\unzipped\TWS\WINDOWS_X86_64\ACTIONTOOLS cmdName =vcredist_x86_13 logPath =C:\Users\NGAHNG~1\AppData\Local\Temp\TWA\tws10.2.4.00
+14/08/2025 12:06:11 installVcredistExe COMMAND = "C:\Users\ngahngono_a\Desktop\New folder\unzipped\TWS\WINDOWS_X86_64\ACTIONTOOLS\vcredist_x86_13.exe" /install /quiet /norestart /log C:\Users\NGAHNG~1\AppData\Local\Temp\TWA\tws10.2.4.00\vcredist_x86_13.log
+14/08/2025 12:06:12 installVcredistExe result = 0
+14/08/2025 12:06:12 installVcredistExe success
+14/08/2025 12:06:12 installVcredist rc = 0
+14/08/2025 12:06:12 installVcredist: running vcredist_x64_13
+14/08/2025 12:06:12 installVcredist: cmdPath =C:\Users\ngahngono_a\Desktop\New folder\unzipped\TWS\WINDOWS_X86_64\ACTIONTOOLS cmdName =vcredist_x64_13 logPath =C:\Users\NGAHNG~1\AppData\Local\Temp\TWA\tws10.2.4.00
+14/08/2025 12:06:12 installVcredistExe COMMAND = "C:\Users\ngahngono_a\Desktop\New folder\unzipped\TWS\WINDOWS_X86_64\ACTIONTOOLS\vcredist_x64_13.exe" /install /quiet /norestart /log C:\Users\NGAHNG~1\AppData\Local\Temp\TWA\tws10.2.4.00\vcredist_x64_13.log
+14/08/2025 12:06:12 installVcredistExe result = 0
+14/08/2025 12:06:12 installVcredistExe success
+14/08/2025 12:06:12 installVcredist rc = 0
+14/08/2025 12:06:12 installVcredist: running vc_redist.x86_14
+14/08/2025 12:06:12 installVcredist: cmdPath =C:\Users\ngahngono_a\Desktop\New folder\unzipped\TWS\WINDOWS_X86_64\ACTIONTOOLS cmdName =vc_redist.x86_14 logPath =C:\Users\NGAHNG~1\AppData\Local\Temp\TWA\tws10.2.4.00
+14/08/2025 12:06:12 installVcredistExe COMMAND = "C:\Users\ngahngono_a\Desktop\New folder\unzipped\TWS\WINDOWS_X86_64\ACTIONTOOLS\vc_redist.x86_14.exe" /install /quiet /norestart /log C:\Users\NGAHNG~1\AppData\Local\Temp\TWA\tws10.2.4.00\vc_redist.x86_14.log
+14/08/2025 12:06:13 installVcredistExe result = 1638
+14/08/2025 12:06:13 installVcredistExe: a newer version of VC++ redistributable is already installed
+14/08/2025 12:06:13 installVcredist rc = 0
+14/08/2025 12:06:13 installVcredist: running vc_redist.x64_14
+14/08/2025 12:06:13 installVcredist: cmdPath =C:\Users\ngahngono_a\Desktop\New folder\unzipped\TWS\WINDOWS_X86_64\ACTIONTOOLS cmdName =vc_redist.x64_14 logPath =C:\Users\NGAHNG~1\AppData\Local\Temp\TWA\tws10.2.4.00
+14/08/2025 12:06:13 installVcredistExe COMMAND = "C:\Users\ngahngono_a\Desktop\New folder\unzipped\TWS\WINDOWS_X86_64\ACTIONTOOLS\vc_redist.x64_14.exe" /install /quiet /norestart /log C:\Users\NGAHNG~1\AppData\Local\Temp\TWA\tws10.2.4.00\vc_redist.x64_14.log
+14/08/2025 12:06:13 installVcredistExe result = 1638
+14/08/2025 12:06:13 installVcredistExe: a newer version of VC++ redistributable is already installed
+14/08/2025 12:06:13 installVcredist rc = 0
+14/08/2025 12:06:13 setDistributedOrZcentric Begin
+14/08/2025 12:06:13 setDistributedOrZcentric end
+14/08/2025 12:06:14 main TWS_USER = 00svczc1
+14/08/2025 12:06:14 fixTwsUser entry TWS_USER = 00svczc1
+14/08/2025 12:06:14 fixTwsUser exit
+14/08/2025 12:06:14 checkPassword user = 00svczc1
+14/08/2025 12:06:14 setUsefullPath TWS_USER = 00svczc1
+14/08/2025 12:06:14 RemoveSlashes: inputString = 00svczc1
+14/08/2025 12:06:14 RemoveSlashes: output = 00svczc1
+14/08/2025 22:50:42 installVcredist: running vcredist_x86_13
+14/08/2025 22:50:43 installVcredist: cmdPath =C:\Users\ngahngono_a\Desktop\New folder\unzipped\TWS\WINDOWS_X86_64\ACTIONTOOLS cmdName =vcredist_x86_13 logPath =C:\Users\NGAHNG~1\AppData\Local\Temp\TWA\tws10.2.4.00
+14/08/2025 22:50:43 installVcredistExe COMMAND = "C:\Users\ngahngono_a\Desktop\New folder\unzipped\TWS\WINDOWS_X86_64\ACTIONTOOLS\vcredist_x86_13.exe" /install /quiet /norestart /log C:\Users\NGAHNG~1\AppData\Local\Temp\TWA\tws10.2.4.00\vcredist_x86_13.log
+14/08/2025 22:50:44 installVcredistExe result = 0
+14/08/2025 22:50:44 installVcredistExe success
+14/08/2025 22:50:44 installVcredist rc = 0
+14/08/2025 22:50:44 installVcredist: running vcredist_x64_13
+14/08/2025 22:50:44 installVcredist: cmdPath =C:\Users\ngahngono_a\Desktop\New folder\unzipped\TWS\WINDOWS_X86_64\ACTIONTOOLS cmdName =vcredist_x64_13 logPath =C:\Users\NGAHNG~1\AppData\Local\Temp\TWA\tws10.2.4.00
+14/08/2025 22:50:44 installVcredistExe COMMAND = "C:\Users\ngahngono_a\Desktop\New folder\unzipped\TWS\WINDOWS_X86_64\ACTIONTOOLS\vcredist_x64_13.exe" /install /quiet /norestart /log C:\Users\NGAHNG~1\AppData\Local\Temp\TWA\tws10.2.4.00\vcredist_x64_13.log
+14/08/2025 22:50:45 installVcredistExe result = 0
+14/08/2025 22:50:45 installVcredistExe success
+14/08/2025 22:50:45 installVcredist rc = 0
+14/08/2025 22:50:45 installVcredist: running vc_redist.x86_14
+14/08/2025 22:50:45 installVcredist: cmdPath =C:\Users\ngahngono_a\Desktop\New folder\unzipped\TWS\WINDOWS_X86_64\ACTIONTOOLS cmdName =vc_redist.x86_14 logPath =C:\Users\NGAHNG~1\AppData\Local\Temp\TWA\tws10.2.4.00
+14/08/2025 22:50:45 installVcredistExe COMMAND = "C:\Users\ngahngono_a\Desktop\New folder\unzipped\TWS\WINDOWS_X86_64\ACTIONTOOLS\vc_redist.x86_14.exe" /install /quiet /norestart /log C:\Users\NGAHNG~1\AppData\Local\Temp\TWA\tws10.2.4.00\vc_redist.x86_14.log
+14/08/2025 22:50:45 installVcredistExe result = 1638
+14/08/2025 22:50:45 installVcredistExe: a newer version of VC++ redistributable is already installed
+14/08/2025 22:50:45 installVcredist rc = 0
+14/08/2025 22:50:45 installVcredist: running vc_redist.x64_14
+14/08/2025 22:50:45 installVcredist: cmdPath =C:\Users\ngahngono_a\Desktop\New folder\unzipped\TWS\WINDOWS_X86_64\ACTIONTOOLS cmdName =vc_redist.x64_14 logPath =C:\Users\NGAHNG~1\AppData\Local\Temp\TWA\tws10.2.4.00
+14/08/2025 22:50:45 installVcredistExe COMMAND = "C:\Users\ngahngono_a\Desktop\New folder\unzipped\TWS\WINDOWS_X86_64\ACTIONTOOLS\vc_redist.x64_14.exe" /install /quiet /norestart /log C:\Users\NGAHNG~1\AppData\Local\Temp\TWA\tws10.2.4.00\vc_redist.x64_14.log
+14/08/2025 22:50:46 installVcredistExe result = 1638
+14/08/2025 22:50:46 installVcredistExe: a newer version of VC++ redistributable is already installed
+14/08/2025 22:50:46 installVcredist rc = 0
+14/08/2025 22:50:46 setDistributedOrZcentric Begin
+14/08/2025 22:50:46 setDistributedOrZcentric end
+14/08/2025 22:50:46 main TWS_USER = 00svczc1
+14/08/2025 22:50:46 fixTwsUser entry TWS_USER = 00svczc1
+14/08/2025 22:50:46 fixTwsUser exit
+14/08/2025 22:50:46 checkPassword user = 00svczc1
+14/08/2025 22:50:47 setUsefullPath TWS_USER = 00svczc1
+14/08/2025 22:50:47 RemoveSlashes: inputString = 00svczc1
+14/08/2025 22:50:47 RemoveSlashes: output = 00svczc1
+14/08/2025 22:50:47 initializeConstants Begin TWS_USER = 00svczc1 TWS_DOMAIN = 
+***************************************************
+         Installation Started 14/08/2025 22:50:47
+***************************************************
+14/08/2025 22:50:47 cleanPluginCache reading C:\Program Files\IBM\TWA_00svczc1\TWS\JavaExt10.2.4.00\eclipse\configuration
+14/08/2025 22:50:47 createIntegrationsFolders: creating C:\Program Files\IBM\TWA_00svczc1\TWS\integrations\vault-profiles folder ...
+14/08/2025 22:50:47 createIntegrationsFolders: folder C:\Program Files\IBM\TWA_00svczc1\TWS\integrations\vault-profiles already exists, creation skipped
+14/08/2025 22:50:47 createIntegrationsFolders: creating C:\Program Files\IBM\TWA_00svczc1\TWS\integrations\config folder ...
+14/08/2025 22:50:47 createIntegrationsFolders: folder C:\Program Files\IBM\TWA_00svczc1\TWS\integrations\config already exists, creation skipped
+14/08/2025 22:50:47 setDomain: begin TWS_USER = 00svczc1 TWS_DOMAIN = 
+14/08/2025 22:50:47 
+14/08/2025 22:50:47  ----------------------------------------------------
+14/08/2025 22:50:47  Start execAction                      
+14/08/2025 22:50:47  ----------------------------------------------------
+14/08/2025 22:50:47  cmd /C "C:\Users\ngahngono_a\Desktop\New folder\unzipped\TWS\WINDOWS_X86_64\ACTIONTOOLS\twsUserAction.exe" -check 00svczc1 >"C:\Program Files\IBM\TWA_00svczc1\logs\twsCmdstdOut" 2>"C:\Program Files\IBM\TWA_00svczc1\logs\twsCmdstdErr"
+14/08/2025 22:50:47  ----------------------------------------------------
+14/08/2025 22:50:47  End execAction.                       
+14/08/2025 22:50:47  ----------------------------------------------------
+14/08/2025 22:50:47 
+14/08/2025 22:50:47 checkOldValues twsUser = 00svczc1
+14/08/2025 22:50:47 
+14/08/2025 22:50:47  ----------------------------------------------------
+14/08/2025 22:50:47  Start execAction                      
+14/08/2025 22:50:48  ----------------------------------------------------
+14/08/2025 22:50:48  cmd /C "C:\Users\ngahngono_a\Desktop\New folder\unzipped\TWS\WINDOWS_X86_64\Prerequisites\check_prereq.exe"  -path C:\ -json ""C:\Users\ngahngono_a\Desktop\New folder\unzipped\TWS\WINDOWS_X86_64\Prerequisites\checkPrereq.json"" -component  DA1 >"C:\Program Files\IBM\TWA_00svczc1\logs\twsCmdstdOut" 2>"C:\Program Files\IBM\TWA_00svczc1\logs\twsCmdstdErr"
+14/08/2025 22:50:48  ----------------------------------------------------
+14/08/2025 22:50:48  End execAction.                       
+14/08/2025 22:50:48  ----------------------------------------------------
+14/08/2025 22:50:48 
+---------- STANDARD OUTPUT from: C:\Users\ngahngono_a\Desktop\New folder\unzipped\TWS\WINDOWS_X86_64\Prerequisites\\check_prereq.exe
+Errore: Devi specificare il componente con il flag -component.
+---------- STANDARD ERROR from: C:\Users\ngahngono_a\Desktop\New folder\unzipped\TWS\WINDOWS_X86_64\Prerequisites\\check_prereq.exe
+------------------------------------------
+14/08/2025 22:50:49 checkInputValuesForNew: begin
+14/08/2025 22:50:49 checkInputValuesForNew: INSTALL_TYPE = NEW IS_ZCENTRIC = true JWT  =  SSL_FOLDER C:\Users\ngahngono_a\Desktop\New folder\sslfolder USE_ENCRYPTION true TWS_ADD_JRE true
+14/08/2025 22:50:49 checkPorts: ports = 31132 31116 0 31114
+14/08/2025 22:50:49 checkPorts: options = -gweifport -jmport -tdwbport -zport
+14/08/2025 22:50:49 checkPorts: flagsAcceptDisable = false false false false
+14/08/2025 22:50:49 checkPort: port = 31132 option =  -gweifport
+14/08/2025 22:50:49 checkPort: port = 31116 option =  -jmport
+14/08/2025 22:50:49 checkPort: port = 0 option =  -tdwbport
+14/08/2025 22:50:49 checkPort: port = 31114 option =  -zport
+14/08/2025 22:50:49 checkBothNotDisabled: val1 = 31111
+14/08/2025 22:50:49 checkBothNotDisabled: opt1 = -port 
+14/08/2025 22:50:49 checkBothNotDisabled: val2 = 31113
+14/08/2025 22:50:49 checkBothNotDisabled: opt2 = -netmansslport 
+14/08/2025 22:50:49 checkOpensslUpdate begin ENABLE_FIPS = 
+14/08/2025 22:50:49 checkOpensslUpdate skip not update
+14/08/2025 22:50:49 checkOpensslUpdate end
+14/08/2025 22:50:49 userAction: begin TWS_USER = 00svczc1
+14/08/2025 22:50:49 
+14/08/2025 22:50:49  ----------------------------------------------------
+14/08/2025 22:50:49  Start execAction                      
+14/08/2025 22:50:49  ----------------------------------------------------
+14/08/2025 22:50:49  cmd /C "C:\Users\ngahngono_a\Desktop\New folder\unzipped\TWS\WINDOWS_X86_64\ACTIONTOOLS\twsUserAction.exe" -check 00svczc1 >"C:\Program Files\IBM\TWA_00svczc1\logs\twsCmdstdOut" 2>"C:\Program Files\IBM\TWA_00svczc1\logs\twsCmdstdErr"
+14/08/2025 22:50:49  ----------------------------------------------------
+14/08/2025 22:50:49  End execAction.                       
+14/08/2025 22:50:49  ----------------------------------------------------
+14/08/2025 22:50:49 
+14/08/2025 22:50:49 
+14/08/2025 22:50:49  ----------------------------------------------------
+14/08/2025 22:50:49  Start execAction                      
+14/08/2025 22:50:49  ----------------------------------------------------
+14/08/2025 22:50:49  cmd /C "C:\Users\ngahngono_a\Desktop\New folder\unzipped\TWS\WINDOWS_X86_64\Tivoli_LWA_WINDOWS_X86_64\TWS\bin\securewrap.exe" -cmd tua -args "-create 00svczc1 ******** " >"C:\Program Files\IBM\TWA_00svczc1\logs\twsCmdstdOut" 2>"C:\Program Files\IBM\TWA_00svczc1\logs\twsCmdstdErr"
+14/08/2025 22:50:50  ----------------------------------------------------
+14/08/2025 22:50:50  End execAction.                       
+14/08/2025 22:50:50  ----------------------------------------------------
+14/08/2025 22:50:50 
+---------------------------------------------------
+ACTION STEP: twsUserAction
+EXIT VALUE: 
+STANDARD OUTPUT from step: twsUserAction
+
+ACCOUNT="CAA01\00svczc1"
+STANDARD ERROR: from step: twsUserAction
+STATUS: OK
+---------------------------------------------------
+14/08/2025 22:50:50 installLwaSpb: begin TWS_USER = 00svczc1
+14/08/2025 22:50:50  checkStepFile C:\Program Files\IBM\TWA_00svczc1\TWS\_uninstall\ACTIONTOOLS\installLWASPBAction.statusStep exist
+14/08/2025 22:50:50  checkStepFile C:\Program Files\IBM\TWA_00svczc1\TWS\_uninstall\ACTIONTOOLS\installLwaAction.statusStep exist
+14/08/2025 22:50:50  checkStepFile C:\Program Files\IBM\TWA_00svczc1\TWS\_uninstall\ACTIONTOOLS\installLWASPBAction.statusStep exist
+---------------------------------------------------
+ACTION STEP: installLWASPBAction
+EXIT VALUE: 
+STATUS: SKIPPED
+---------------------------------------------------
+14/08/2025 22:50:50  checkStepFile C:\Program Files\IBM\TWA_00svczc1\TWS\_uninstall\ACTIONTOOLS\installLWASPBAction.statusStep exist
+14/08/2025 22:50:50  checkStepFile C:\Program Files\IBM\TWA_00svczc1\TWS\_uninstall\ACTIONTOOLS\installLWAAction.statusStep exist
+14/08/2025 22:50:50  checkStepFile C:\Program Files\IBM\TWA_00svczc1\TWS\_uninstall\ACTIONTOOLS\installLWAAction.statusStep exist
+---------------------------------------------------
+ACTION STEP: installLWAAction
+EXIT VALUE: 
+STATUS: SKIPPED
+---------------------------------------------------
+14/08/2025 22:50:51  checkStepFile C:\Program Files\IBM\TWA_00svczc1\TWS\_uninstall\ACTIONTOOLS\installLWAAction.statusStep exist
+14/08/2025 22:50:51  checkStepFile C:\Program Files\IBM\TWA_00svczc1\TWS\_uninstall\ACTIONTOOLS\installCitSPBAction.statusStep exist
+14/08/2025 22:50:51  checkStepFile C:\Program Files\IBM\TWA_00svczc1\TWS\_uninstall\ACTIONTOOLS\installCitSPBAction.statusStep exist
+---------------------------------------------------
+ACTION STEP: installCitSPBAction
+EXIT VALUE: 
+STATUS: SKIPPED
+---------------------------------------------------
+14/08/2025 22:50:51  checkStepFile C:\Program Files\IBM\TWA_00svczc1\TWS\_uninstall\ACTIONTOOLS\installCitSPBAction.statusStep exist
+14/08/2025 22:50:51  checkStepFile C:\Program Files\IBM\TWA_00svczc1\TWS\_uninstall\ACTIONTOOLS\installJreSPBAction.statusStep exist
+14/08/2025 22:50:51  checkStepFile C:\Program Files\IBM\TWA_00svczc1\TWS\_uninstall\ACTIONTOOLS\installJreSPBAction.statusStep exist
+---------------------------------------------------
+ACTION STEP: installJreSPBAction
+EXIT VALUE: 
+STATUS: SKIPPED
+---------------------------------------------------
+14/08/2025 22:50:51  checkStepFile C:\Program Files\IBM\TWA_00svczc1\TWS\_uninstall\ACTIONTOOLS\installJreSPBAction.statusStep exist
+14/08/2025 22:50:51 
+14/08/2025 22:50:51  ****************************************************
+14/08/2025 22:50:51  STEP: Install Apps DATA                             
+14/08/2025 22:50:51  ****************************************************
+14/08/2025 22:50:51 Install and Configure AppsData method.
+14/08/2025 22:50:51  TWS_HOSTNAME variable not defined. Hostname will be calculated.
+14/08/2025 22:50:51  QUALIFIED_HOSTNAME=WD204APP10044.
+14/08/2025 22:50:51 
+14/08/2025 22:50:51  ----------------------------------------------------
+14/08/2025 22:50:51  Start packageDeploy.sh command.                     
+14/08/2025 22:50:51  ----------------------------------------------------
+14/08/2025 22:50:51  cmd /C 
+14/08/2025 22:51:01  ----------------------------------------------------
+14/08/2025 22:51:01  End packageDeploy.sh command.                       
+14/08/2025 22:51:01  ----------------------------------------------------
+14/08/2025 22:51:01 
+14/08/2025 22:51:01 
+14/08/2025 22:51:01  ****************************************************
+14/08/2025 22:51:01  STEP: Install R3Batch method.                       
+14/08/2025 22:51:01  ****************************************************
+14/08/2025 22:51:01  checkStepFile C:\Program Files\IBM\TWA_00svczc1\TWS\_uninstall\ACTIONTOOLS\installR3BatchAction.statusStep exist
+14/08/2025 22:51:01  SKIPPED.
+14/08/2025 22:51:01  checkStepFile C:\Program Files\IBM\TWA_00svczc1\TWS\_uninstall\ACTIONTOOLS\installR3BatchAction.statusStep exist
+---------------------------------------------------
+ACTION STEP: installR3BatchAction
+EXIT VALUE: 
+STATUS: SKIPPED
+---------------------------------------------------
+14/08/2025 22:51:02  checkStepFile C:\Program Files\IBM\TWA_00svczc1\TWS\_uninstall\ACTIONTOOLS\installR3BatchAction.statusStep exist
+14/08/2025 22:51:02 
+14/08/2025 22:51:02  ****************************************************
+14/08/2025 22:51:02  STEP: Install PEOPLESOFT method.                    
+14/08/2025 22:51:02  ****************************************************
+14/08/2025 22:51:02  checkStepFile C:\Program Files\IBM\TWA_00svczc1\TWS\_uninstall\ACTIONTOOLS\installPeopleSoftAction.statusStep exist
+14/08/2025 22:51:02  SKIPPED.
+14/08/2025 22:51:02  checkStepFile C:\Program Files\IBM\TWA_00svczc1\TWS\_uninstall\ACTIONTOOLS\installPeopleSoftAction.statusStep exist
+---------------------------------------------------
+ACTION STEP: installPeopleSoftAction
+EXIT VALUE: 
+STATUS: SKIPPED
+---------------------------------------------------
+14/08/2025 22:51:02  checkStepFile C:\Program Files\IBM\TWA_00svczc1\TWS\_uninstall\ACTIONTOOLS\installPeopleSoftAction.statusStep exist
+14/08/2025 22:51:02 copyAgentCertificateDownloaderFiles
+14/08/2025 22:51:02 copyNoReplace: source C:\Users\ngahngono_a\Desktop\New folder\unzipped\TWS\WINDOWS_X86_64\ACTIONTOOLS\AgentCertificateDownloader.vbs target C:\Program Files\IBM\TWA_00svczc1\TWS\AgentCertificateDownloader.vbs
+14/08/2025 22:51:02 copyNoReplace: target C:\Program Files\IBM\TWA_00svczc1\TWS\AgentCertificateDownloader.vbs exists, renaming to .old
+14/08/2025 22:51:02 copyNoReplace: deleting old copy C:\Program Files\IBM\TWA_00svczc1\TWS\AgentCertificateDownloader.vbs
+14/08/2025 22:51:02 copyNoReplace: source C:\Users\ngahngono_a\Desktop\New folder\unzipped\TWS\WINDOWS_X86_64\ACTIONTOOLS\AgentCertificateDownloader.properties target C:\Program Files\IBM\TWA_00svczc1\TWS\AgentCertificateDownloader.properties
+14/08/2025 22:51:02 copyNoReplace: target C:\Program Files\IBM\TWA_00svczc1\TWS\AgentCertificateDownloader.properties exists, renaming to .old
+14/08/2025 22:51:02 copyNoReplace: deleting old copy C:\Program Files\IBM\TWA_00svczc1\TWS\AgentCertificateDownloader.properties
+14/08/2025 22:51:02 copyNoReplace: source C:\Users\ngahngono_a\Desktop\New folder\unzipped\TWS\WINDOWS_X86_64\ACTIONTOOLS\AgentCertificateDownloader.template target C:\Program Files\IBM\TWA_00svczc1\TWS\AgentCertificateDownloader.template
+14/08/2025 22:51:02 copyNoReplace: target C:\Program Files\IBM\TWA_00svczc1\TWS\AgentCertificateDownloader.template exists, renaming to .old
+14/08/2025 22:51:02 copyNoReplace: deleting old copy C:\Program Files\IBM\TWA_00svczc1\TWS\AgentCertificateDownloader.template
+14/08/2025 22:51:02 copyNoReplace: source C:\Users\ngahngono_a\Desktop\New folder\unzipped\TWS\WINDOWS_X86_64\ACTIONTOOLS\commonFunctions.vbs target C:\Program Files\IBM\TWA_00svczc1\TWS\commonFunctions.vbs
+14/08/2025 22:51:02 copyNoReplace: target C:\Program Files\IBM\TWA_00svczc1\TWS\commonFunctions.vbs exists, renaming to .old
+14/08/2025 22:51:02 copyNoReplace: deleting old copy C:\Program Files\IBM\TWA_00svczc1\TWS\commonFunctions.vbs
+14/08/2025 22:51:02 copyNoReplace: source C:\Users\ngahngono_a\Desktop\New folder\unzipped\TWS\WINDOWS_X86_64\ACTIONTOOLS\FileUpdate.jar target C:\Program Files\IBM\TWA_00svczc1\TWS\FileUpdate.jar
+14/08/2025 22:51:02 copyNoReplace: target C:\Program Files\IBM\TWA_00svczc1\TWS\FileUpdate.jar exists, renaming to .old
+14/08/2025 22:51:02 copyNoReplace: deleting old copy C:\Program Files\IBM\TWA_00svczc1\TWS\FileUpdate.jar
+14/08/2025 22:51:02  checkStepFile C:\Program Files\IBM\TWA_00svczc1\TWS\_uninstall\ACTIONTOOLS\downloadUninstallAction.statusStep exist
+14/08/2025 22:51:03  checkStepFile C:\Program Files\IBM\TWA_00svczc1\TWS\_uninstall\ACTIONTOOLS\downloadUninstallAction.statusStep exist
+---------------------------------------------------
+ACTION STEP: downloadUninstallAction
+EXIT VALUE: 
+STATUS: SKIPPED
+---------------------------------------------------
+14/08/2025 22:51:03  checkStepFile C:\Program Files\IBM\TWA_00svczc1\TWS\_uninstall\ACTIONTOOLS\downloadUninstallAction.statusStep exist
+14/08/2025 22:51:03 configureAction: begin
+14/08/2025 22:51:03  checkStepFile C:\Program Files\IBM\TWA_00svczc1\TWS\_uninstall\ACTIONTOOLS\twsConfigAction.statusStep exist
+14/08/2025 22:51:03  checkStepFile C:\Program Files\IBM\TWA_00svczc1\TWS\_uninstall\ACTIONTOOLS\twsConfigAction.statusStep exist
+---------------------------------------------------
+ACTION STEP: twsConfigAction
+EXIT VALUE: 
+STATUS: SKIPPED
+---------------------------------------------------
+14/08/2025 22:51:03  checkStepFile C:\Program Files\IBM\TWA_00svczc1\TWS\_uninstall\ACTIONTOOLS\twsConfigAction.statusStep exist
+14/08/2025 22:51:03 configureAction: end
+14/08/2025 22:51:03 runSecurityScript begin
+14/08/2025 22:51:03 runSecurityScript skip download because WAUSER blank
+14/08/2025 22:51:03 runSecurityScript importCertificates from C:\Users\ngahngono_a\Desktop\New folder\sslfolder
+14/08/2025 22:51:03 importCertificates begin instDir=C:\Program Files\IBM\TWA_00svczc1 sslKeysFolder=C:\Users\ngahngono_a\Desktop\New folder\sslfolder addCaOnly=false
+14/08/2025 22:51:03 Execute import of agent certificates
+14/08/2025 22:51:03 
+14/08/2025 22:51:03  ----------------------------------------------------
+14/08/2025 22:51:03  Start importAgentCert.vbs
+14/08/2025 22:51:03  ----------------------------------------------------
+14/08/2025 22:51:03 cscript.exe "C:\Users\ngahngono_a\Desktop\New folder\unzipped\TWS\WINDOWS_X86_64\ACTIONTOOLS\\importAgentCert.vbs" false "C:\Program Files\IBM\TWA_00svczc1" "C:\Users\ngahngono_a\Desktop\New folder\sslfolder" "C:\Program Files\IBM\TWA_00svczc1\TWS\JavaExt10.2.4.00\jre\jre" NEW "********" false 1>"C:\Program Files\IBM\TWA_00svczc1\logs\twsCmdstdOut" 2>"C:\Program Files\IBM\TWA_00svczc1\logs\twsCmdstdErr"
+14/08/2025 22:51:06 execVbscriptCmd: result = 21
+14/08/2025 22:51:06  ----------------------------------------------------
+14/08/2025 22:51:06  End importAgentCert.vbs
+14/08/2025 22:51:06  ----------------------------------------------------
+14/08/2025 22:51:06 
+---------------------------------------------------
+ACTION STEP: runSecurityScriptAction
+EXIT VALUE: 
+STANDARD OUTPUT from step: runSecurityScriptAction
+Microsoft (R) Windows Script Host Version 5.812
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+importAgentCert.vbs log = C:\Program Files\IBM\TWA_00svczc1\logs\importAgentCert_10.2.4.00.log
+STANDARD ERROR: from step: runSecurityScriptAction
+STATUS: ERROR
+---------------------------------------------------
+TWS INSTANCE INFO
+--------------------------------------
+  INSTALL_TYPE: NEW
+  AGENT: zcentric
+  MASTER: 
+  THISCPU: 
+  USER: 00svczc1
+  PASSWORD: ********
+  DOMAIN: CAA01
+  PORT: 
+  JM_PORT: 31116
+  JM_PORT_IS_SSL: true
+  HOSTNAME: 
+  DISPLAY_NAME: AgentIBMwindows
+  GATEWAY: none
+  TDWB_PORT: 0
+  TDWB_SERVER: localhost
+  ADD_JAVA_RUNTIME: true
+  INSTALL_DIR: C:\Program Files\IBM\TWA_00svczc1
+  COMPANY: 
+  CPUTYPE: AGENT
+--------------------------------------
+
+***************************************************
+         Installation Ended 14/08/2025 22:51:07
+***************************************************
+14/08/2025 22:51:07 import certificates failed with errors:21
