@@ -36,5 +36,22 @@ Get-ChildItem Cert:\LocalMachine\My | Where-Object Thumbprint -eq $cert.Thumbpri
 
 powershell -NoProfile -ExecutionPolicy Bypass -Command "$dns='10.179.143.43'; $dest='C:\Users\ngahngono_a\Desktop\New folder\sslfolder'; if(-not (Test-Path $dest)){New-Item -ItemType Directory -Path $dest | Out-Null}; $pwd=ConvertTo-SecureString 'ChangeMe123!' -AsPlainText -Force; $cert=New-SelfSignedCertificate -DnsName $dns -CertStoreLocation 'Cert:\LocalMachine\My' -KeyLength 2048 -KeyExportPolicy Exportable -NotAfter (Get-Date).AddYears(2) -FriendlyName 'ZCentric Agent'; Export-PfxCertificate -Cert $cert -FilePath \"$dest\zcentric.pfx\" -Password $pwd | Out-Null; Export-Certificate -Cert $cert -FilePath \"$dest\zcentric.cer\" | Out-Null; Write-Host 'Certificat créé et exporté dans' $dest"
 
+************************************************************************************************************
+
+1/-commande d'installation 
+
+
+twsinst.vbs :
+
+cscript twsinst.vbs new ^
+  -acceptlicense yes ^
+  -uname "DOMAINE\compte_service" ^
+  -password "MotDePasseService" ^
+  -displayname "AGENT-10.179.143.43" ^
+  -zhostname "nom_ou_ip_du_master" ^
+  -zport 31116 ^
+  -sslkeysfolder "C:\Users\ngahngono_a\Desktop\New folder\sslfolder" ^
+  -sslpassword "MotDePasseDuPFX"
+
 
 
