@@ -1,0 +1,80 @@
+1. Créer le certificat auto-signé
+
+Par exemple avec ton hostname ou ton IP :
+
+New-SelfSignedCertificate `
+   -DnsName "10.179.143.43" `
+   -CertStoreLocation "Cert:\LocalMachine\My" `
+   -FriendlyName "ZCentricAgentCert"
+
+
+👉 Ici :
+
+DnsName → mets l’IP ou le hostname de ta VM agent.
+
+CertStoreLocation → "Cert:\LocalMachine\My" signifie qu’il sera créé dans le magasin "Personnel" de la machine.
+
+FriendlyName → juste un nom pratique pour l’identifier.
+
+
+2. Exporter le certificat avec clé privée (format .pfx)
+
+Il faut un mot de passe pour protéger la clé privée. Exemple :
+
+$pwd = ConvertTo-SecureString -String "ChangeMe123!" -Force -AsPlainText
+Export-PfxCertificate `
+   -Cert "Cert:\LocalMachine\My\ZCentricAgentCert" `
+   -FilePath "C:\Users\ngahmgono_a\Desktop\sslfolder\zcentric.pfx" `
+   -Password $pwd
+
+
+3. Exporter le certificat sans clé privée (format .cer)
+
+C’est celui que tu pourras mettre dans le Trusted Root :
+
+Export-Certificate `
+   -Cert "Cert:\LocalMachine\My\ZCentricAgentCert" `
+   -FilePath "C:\Users\ngahmgono_a\Desktop\sslfolder\zcentric.cer"
+
+
+4. Importer le certificat public dans les Trusted Root (si nécessaire)
+Import-Certificate `
+   -FilePath "C:\Users\ngahmgono_a\Desktop\sslfolder\zcentric.cer" `
+   -CertStoreLocation "Cert:\LocalMachine\Root"
+
+
+**************************************************************************************************************************************************
+
+$dns="10.179.143.43"; `
+$dest="C:\Users\ngahmgono_a\Desktop\New_folder\sslfolder"; `
+$pwd=ConvertTo-SecureString "ChangeMe123!" -AsPlainText -Force; `
+$cert=New-SelfSignedCertificate -DnsName $dns -CertStoreLocation Cert:\LocalMachine\My -KeyExportPolicy Exportable -KeyLength 2048 -KeyAlgorithm RSA -SignatureAlgorithm sha256; `
+Export-PfxCertificate -Cert ("Cert:\LocalMachine\My\{0}" -f $cert.Thumbprint) -FilePath (Join-Path $dest "zcentric.pfx") -Password $pwd | Out-Null; `
+Export-Certificate -Cert ("Cert:\LocalMachine\My\{0}" -f $cert.Thumbprint) -FilePath (Join-Path $dest "zcentric.cer") | Out-Null; `
+Import-Certificate -FilePath (Join-Path $dest "zcentric.cer") -CertStoreLocation Cert:\LocalMachine\Root | Out-Null; `
+Write-Host "OK — Certificat créé. Empreinte : $($cert.Thumbprint) — Fichiers disponibles dans $dest"
+
+
+
+Explication rapide :
+
+$dns → mets ici soit l’IP de ton agent (10.179.143.43), soit son hostname.
+
+$dest → le dossier où seront déposés les fichiers .pfx et .cer. Il doit exister avant.
+
+$pwd → mot de passe du certificat (ici ChangeMe123!). C’est ce mot de passe qu’il faudra passer à l’installeur (-sslpassword).
+
+zcentric.pfx = contient la clé privée (protégée par mot de passe).
+
+zcentric.cer = contient la clé publique (ajoutée dans le store racine).
+
+
+Vérification après coup :
+
+Tu peux vérifier que ton certificat est bien créé avec :
+
+certutil -p "ChangeMe123!" -dump (Join-Path $dest "zcentric.pfx")
+
+**************************************************************************************************************************************
+
+
