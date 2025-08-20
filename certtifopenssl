@@ -1,0 +1,6 @@
+$cert = New-SelfSignedCertificate -DnsName "10.179.143.43" -CertStoreLocation "cert:\\LocalMachine\\My" -NotAfter (Get-Date).AddDays(365) -Subject "CN=10.179.143.43,O=Cagip,L=SQY,ST=IDF,C=FR"
+
+Export-Certificate -Cert $cert -FilePath "C:\\temp\\zcentricagent.crt" -Type CERT
+
+$pwd = ConvertTo-SecureString -String "changeme" -Force -AsPlainText
+Export-PfxCertificate -Cert $cert -FilePath "C:\\temp\\zcentricagent.pfx" -Password $pwd
