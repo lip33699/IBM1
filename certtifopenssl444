@@ -24,3 +24,16 @@ openssl req -x509 -nodes -days 365 -newkey rsa:2048 \
 -subj "/CN=zcentrictest"
 
 
+*****************************************************************************************************************
+
+
+# Générez le certificat
+$cert = New-SelfSignedCertificate -DnsName "10.179.143.43" -CertStoreLocation "cert:\\LocalMachine\\My" -NotAfter (Get-Date).AddDays(365) -Subject "CN=10.179.143.43,O=Cagip,L=SQY,ST=IDF,C=FR" -KeyUsage KeyEncipherment,DataEncipherment
+
+# Exportez le certificat vers le Desktop\\nn
+Export-Certificate -Cert $cert -FilePath "C:\\Users\\ngahngono_a\\Desktop\\nn\\zcentricagent.crt"
+
+# Exportez avec la clé privée
+$pwd = ConvertTo-SecureString -String "changeme" -Force -AsPlainText
+Export-PfxCertificate -Cert $cert -FilePath "C:\\Users\\ngahngono_a\\Desktop\\nn\\zcentricagent.pfx" -Password $pwd
+
