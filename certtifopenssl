@@ -4,3 +4,13 @@ Export-Certificate -Cert $cert -FilePath "C:\\temp\\zcentricagent.crt" -Type CER
 
 $pwd = ConvertTo-SecureString -String "changeme" -Force -AsPlainText
 Export-PfxCertificate -Cert $cert -FilePath "C:\\temp\\zcentricagent.pfx" -Password $pwd
+
+
+*************************************************************************************************************************************************************
+
+
+openssl req -x509 -nodes -days 365 -newkey rsa:2048 \
+-keyout agent_zcentric.key \
+-out agent_zcentric.crt \
+-subj "/CN=zcentrictest"
+
