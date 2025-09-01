@@ -1,0 +1,64 @@
+Très bon choix ✅ ! Repartir proprement t’évitera de tourner en rond avec des fichiers incomplets ou mal signés.
+
+
+---
+
+🎯 Voici le plan clair et rapide pour régénérer les certificats nécessaires à IBM Workload Automation (Agent ZCentric) :
+
+📁 Tu vas créer un dossier dédié (ex : C:\certificatif), et y placer 3 fichiers à la fin :
+
+ca.crt → le certificat de l’autorité
+
+tls.crt → le certificat de l’agent signé par le CA
+
+tls.key → la clé privée de l’agent
+
+
+
+---
+
+💥 Étapes complètes (à copier/coller dans Git Bash, PowerShell avec OpenSSL, ou un terminal Unix)
+
+# 1. Créer la clé privée du CA
+openssl genrsa -out ca.key 2048
+
+# 2. Générer le certificat auto-signé du CA (valable 10 ans)
+openssl req -x509 -new -nodes -key ca.key -sha256 -days 3650 -out ca.crt -subj "/C=FR/ST=IDF/L=Paris/O=GICAP/OU=IT/CN=ca.local"
+
+# 3. Créer la clé privée de l’agent
+openssl genrsa -out tls.key 2048
+
+# 4. Générer une demande de certificat (CSR)
+openssl req -new -key tls.key -out tls.csr -subj "/C=FR/ST=IDF/L=Paris/O=GICAP/OU=ORDO/CN=agent.local"
+
+# 5. Signer le certificat agent avec le CA
+openssl x509 -req -in tls.csr -CA ca.crt -CAkey ca.key -CAcreateserial -out tls.crt -days 3650 -sha256
+
+
+---
+
+📂 Une fois terminé, place dans -sslkeyfolder :
+
+C:\certificatif\
+├── ca.crt
+├── tls.crt
+└── tls.key
+
+⚠️ Pas de .p12, pas de .pem, pas de .cer, rien d'autre.
+
+
+---
+
+📌 Rappel lors du twsinst.vbs :
+
+Utilise bien le paramètre :
+
+-sslkeyfolder "C:\certificatif"
+
+
+---
+
+Si tu veux, je peux générer un .bat avec toutes ces commandes ou t’aider à automatiser ça.
+
+Souhaite-tu aussi que je valide la commande complète twsinst.vbs que tu vas utiliser ?
+
